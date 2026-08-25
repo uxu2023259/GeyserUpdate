@@ -1,0 +1,39 @@
+# GeyserUpdate 配置文件
+# 本插件会自动检测并更新当前服务端对应平台的 Geyser 与 Floodgate。
+# Paper 端默认更新 Geyser-Spigot.jar、floodgate-spigot.jar，并额外更新 Via 全家桶测试版。
+# Via 全家桶包含 ViaVersion、ViaBackwards、ViaRewind、ViaRewind-Legacy-Support。
+# BC/Waterfall 端默认更新 Geyser-BungeeCord.jar、floodgate-bungee.jar 与 SkinsRestorer.jar。
+
+# 是否在插件启动后自动检测一次更新。
+check-on-start: true
+
+# 每天自动检测更新时间，格式为 HH:mm。
+# 如当天检测到官方有新构建，会下载并校验文件，启动离线更新器，然后执行对应端的关闭命令。
+# 在 Windows 等会锁定已加载插件 JAR 的系统上，离线更新器会等待服务器进程退出后再替换文件，确保重启后就是新版本。
+# 只有每日定时检测会自动执行关闭命令；启动检测和管理员手动检测只会下载并准备更新，不会自动重启。
+daily-check-time: "04:00"
+
+# Paper 端更新完成后的关闭命令。
+paper-shutdown-command: "stop"
+
+# BC/Waterfall 端更新完成后的关闭命令。
+bungee-shutdown-command: "end"
+
+# 是否仅向控制台输出提醒。
+# 当前版本只使用控制台提醒，请保持为 true。
+notify-console-only: true
+
+# 网络连接超时时间，单位毫秒。
+connect-timeout-millis: 15000
+
+# 网络读取超时时间，单位毫秒。
+read-timeout-millis: 30000
+
+# 下载进度输出间隔，单位毫秒。
+progress-log-interval-millis: 1000
+
+# 是否允许每日定时检测更新完成后自动执行关闭命令。
+# 该配置不影响启动检测和 /geyserupdate check，它们永远不会自动关闭服务器。
+auto-shutdown-after-update: true
+
+

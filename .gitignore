@@ -1,0 +1,10 @@
+target/
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db

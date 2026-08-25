@@ -1,0 +1,17 @@
+name: GeyserUpdate
+version: 1.0.9
+main: com.xigua.geyserupdate.paper.GeyserUpdatePaperPlugin
+api-version: '1.20'
+author: xigua
+description: 自动更新 Geyser、Floodgate 和 Via 全家桶的 Paper 插件
+commands:
+  geyserupdate:
+    description: Geyser/Floodgate/Via 自动更新管理命令
+    usage: /geyserupdate <check|reload|status>
+    permission: geyserupdate.admin
+permissions:
+  geyserupdate.admin:
+    description: 允许使用 GeyserUpdate 管理命令
+    default: op
+
+
