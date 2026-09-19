@@ -1,4 +1,4 @@
-package com.xigua.geyserupdate.common;
+package awa.uxu.xigua.geyserupdate.common;
 
 public final class UpdateConfig {
     private final boolean checkOnStart;

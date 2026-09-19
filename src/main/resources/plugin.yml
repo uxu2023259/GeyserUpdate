@@ -1,6 +1,6 @@
 name: GeyserUpdate
 version: 1.0.9
-main: com.xigua.geyserupdate.paper.GeyserUpdatePaperPlugin
+main: awa.uxu.xigua.geyserupdate.paper.GeyserUpdatePaperPlugin
 api-version: '1.20'
 author: xigua
 description: 自动更新 Geyser、Floodgate 和 Via 全家桶的 Paper 插件

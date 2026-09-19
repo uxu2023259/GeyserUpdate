@@ -1,6 +1,6 @@
-package com.xigua.geyserupdate.paper;
+package awa.uxu.xigua.geyserupdate.paper;
 
-import com.xigua.geyserupdate.common.PluginLogger;
+import awa.uxu.xigua.geyserupdate.common.PluginLogger;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -1,4 +1,4 @@
-package com.xigua.geyserupdate.common;
+package awa.uxu.xigua.geyserupdate.common;
 
 public enum ServerPlatform {
     PAPER("Paper", "spigot", "spigot", "paper-shutdown-command"),

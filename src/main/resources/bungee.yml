@@ -1,6 +1,6 @@
 name: GeyserUpdate
 version: 1.0.9
-main: com.xigua.geyserupdate.bungee.GeyserUpdateBungeePlugin
+main: awa.uxu.xigua.geyserupdate.bungee.GeyserUpdateBungeePlugin
 author: xigua
 description: 自动更新 Geyser、Floodgate 和 SkinsRestorer 的 BC 插件
 

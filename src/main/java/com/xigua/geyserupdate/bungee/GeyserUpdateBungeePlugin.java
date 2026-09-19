@@ -1,10 +1,10 @@
-package com.xigua.geyserupdate.bungee;
+package awa.uxu.xigua.geyserupdate.bungee;
 
-import com.xigua.geyserupdate.common.DailyUpdateScheduler;
-import com.xigua.geyserupdate.common.ServerPlatform;
-import com.xigua.geyserupdate.common.SimpleYamlConfig;
-import com.xigua.geyserupdate.common.UpdateConfig;
-import com.xigua.geyserupdate.common.UpdateService;
+import awa.uxu.xigua.geyserupdate.common.DailyUpdateScheduler;
+import awa.uxu.xigua.geyserupdate.common.ServerPlatform;
+import awa.uxu.xigua.geyserupdate.common.SimpleYamlConfig;
+import awa.uxu.xigua.geyserupdate.common.UpdateConfig;
+import awa.uxu.xigua.geyserupdate.common.UpdateService;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Command;
