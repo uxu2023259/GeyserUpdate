@@ -5,7 +5,7 @@
 
     <groupId>com.xigua</groupId>
     <artifactId>GeyserUpdate</artifactId>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <packaging>jar</packaging>
 
     <name>GeyserUpdate</name>
